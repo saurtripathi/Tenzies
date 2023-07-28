@@ -7,12 +7,11 @@ export default function Tracker(props) {
     return (
 
         <>
-            {/* <h3>Tracker : {props.tracker}</h3> */}
-         {props.tenzies && <div className="tracker">
-            <h3>Attempts    :   {props.tracker} </h3>
-            
-            </div> }   
-            
+            {props.tenzies && <div className="tracker">
+                <h3>No. of Attempts    :   {props.tracker} </h3>
+
+            </div>}
+
         </>
     )
 }
